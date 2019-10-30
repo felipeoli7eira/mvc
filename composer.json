@@ -1,0 +1,26 @@
+{
+    "name": "felipeovr/baseapp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "felipe",
+            "email": "goo.felipeoliveira@gmail.com",
+            "role": "Developer",
+            "homepage": "http://felipeoliveira.surge.sh"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+
+        ]
+    },
+    "require": {
+        "twig/twig": "^2.12"
+    }
+}
